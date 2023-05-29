@@ -1,0 +1,36 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #181818;
+  color: #ffffff;
+  gap: 10px;
+
+  .title {
+    margin-right: 10px;
+    color: #c9c9c9;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+
+    &.meta {
+      color: #1c8dff;
+    }
+
+    &.netflix {
+      color: #f53535;
+    }
+
+    &.paypal {
+      color: #35e8f5;
+    }
+  }
+}
